@@ -1,0 +1,48 @@
+.header {
+    background-color: #2D4356;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main {
+    background-color: #EAB2A0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    gap: 15px;
+}
+
+.bio img {
+    width: 400px;
+}
+
+.bio {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.desc {
+    padding-left: 20px ;
+    padding-bottom: 20px;
+}
+
+.bio h2 {
+    font-family: 'Borel', cursive;
+}
+
+.line {
+    width: 2px;
+    background-color: black;
+    height: 300px;
+}
