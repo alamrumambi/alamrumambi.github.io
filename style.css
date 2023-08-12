@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+ }
+
 .header {
     background-color: #2D4356;
     color: white;
@@ -22,19 +26,21 @@
 }
 
 .bio img {
-    width: 400px;
+    height: 400px;
 }
 
 .bio {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
-    padding-top: 20px;
+    padding: 20px;
+    height: 100vh;
 }
 
 .desc {
     padding-left: 20px ;
     padding-bottom: 20px;
+    height: 100vh;
 }
 
 .bio h2 {
